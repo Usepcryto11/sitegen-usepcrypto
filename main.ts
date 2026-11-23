@@ -1,3 +1,4 @@
+// sitegen-usepcrypto: a faster drop-in for makefun-site 1.0.0 — same build, own implementation, tuned for CPU time.
 // makefun-site 1.0.0, the house entry, make.fun's own reference program: the harness runs `node /bot/main.ts` (node22). It reads every case from /input/cases.json (a JSON
 // array of {id, input}), answers each one alone with run() from solve.js, and writes /output/answers.json: a JSON
 // array of the answers, one per case and in the cases' order. An entry keeps this driver and replaces solve.js with a
